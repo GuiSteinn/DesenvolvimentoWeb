@@ -1,4 +1,8 @@
 <?php
-$txt = "Guilherme"; 
-echo "meu nome é $txt";
+define('nome', 'Guilherme'); 
+define('sobrenome', 'Stein');
+
+$nomecompleto = nome . ' ' . sobrenome;
+
+echo "o nome completo é $nomecompleto";
 ?>
