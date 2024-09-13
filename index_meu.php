@@ -4,5 +4,5 @@ define('sobrenome', 'Stein');
 
 $nomecompleto = nome . ' ' . sobrenome;
 
-echo "o nome completo é $nomecompleto";
+echo"o nome completo é $nomecompleto";
 ?>
