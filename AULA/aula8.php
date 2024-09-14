@@ -2,7 +2,7 @@
     $salario1 = 1000; 
     $salario2 = 2000; 
 
-    $salario2 = $salario1; 
+    //$salario2 = $salario1; 
     ++$salario2; 
 
     $salario1 *=1.1;
@@ -17,6 +17,15 @@
         }else{
             echo "Os valores são iguais";
         }
-    }
+    } 
 
+    for($i = 0; $i <= 100; $i++){
+        $salario1++;
+        if($i === 49){
+            break;
+        }
+    }
+    if($salario1 < $salario2){
+        echo "<br> o valor de salário 1 é:" . $salario1;
+    }
  ?>   
