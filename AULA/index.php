@@ -1,5 +1,5 @@
 <?php
-    require_once("functions.php")
+    require_once("functions.php");
 
      //Declarar arrays de dados como variáveis de escopo global
      define("notas", array(6, 8, 10, 7));
