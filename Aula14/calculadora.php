@@ -1,5 +1,6 @@
 <?php
  class calculadora{
+
     private $operador1; 
     private $operador2; 
     public function setOperador1($operador){
@@ -9,8 +10,9 @@
         $this->operador2 = $operador;
     }
     public function somar(){
-        return $this->operador1 + $this->operador2
+        return $this->operador1 + $this->operador2;
     }
 
+   
  }
  ?>
